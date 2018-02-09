@@ -15,11 +15,11 @@ try:
         cv2.imshow('WebCam_0', frame)
         key = cv2.waitKey(499) & 0xFF
         if key ==ord('s'):
-                filename = 'cap_' + time.strftime('%y%m%d%H%M%S') + '.jpg'
-                    cv2.imwrite(filename, frame)
-                        print('Saved '+ filename)
+           　filename = 'cap_' + time.strftime('%y%m%d%H%M%S') + '.jpg'
+           　cv2.imwrite(filename, frame)
+           　print('Saved '+ filename)
         if key ==ord('q'):
-                break
+           　break
 
         # time.sleep(0.49)
         
